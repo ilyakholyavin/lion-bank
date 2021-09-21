@@ -4,213 +4,230 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lion Bank</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <img src="./img/logo.png" alt="" class="header__logo">
-            <nav class="header__menu">
-                <ul class="menu__list">
-                    <li class="menu__title">Главная</li>
-                    <li class="menu__title">Услуги</li>
-                    <li class="menu__title">Отзывы</li>
-                </ul>
-            </nav>
-            <address class="contacts">
-                <a href="tel:+78007003030" class="contacts__phone">88007003030</a>
-                <div class="contacts__workhours">График работы</div>
-            </address>
-        </header>
-        <main class="slogan">
-            <h1 class="slogan__text">
-                Не отказывай себе в желании быть первым
-            </h1>
-            <div class="slogan__header">
-                Банк с львиным характером
-            </div>
-            <button class="slogan__button">ПОДРОБНЕЕ</button>
-        </main>
-        <div class="offers">
-            <h2 class="heading">
-                Лучшие предложения банка
-            </h2>
-            <div class="offers__element">
-                <div class="offfers__img">
-                    <img src="./img/card__baz.png" alt="" class="offers_background">
-                    <img src="./img/card__grey.png" alt="" class="offers__card">
-                </div>
-                <div class="offers__name">
-                    Карта «Базовая»
-                </div>
-                <div class="offers__price">
-                    <div class="offers__conditions">
-                        60 Р.- 
+    <div class="wrapper main-page-wrapper">
+        <section class="hero">
+            <div class="container">
+                <header class="header">
+                    <a href="/" class="logo">
+                    <img src="./img/logo.png" alt="lion bank logo" class="logo__img">
+                    </a> 
+                    <nav class="menu">
+                    <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Главная</a>
+                    </li>
+                    <li class="menu__item menu__item--active">
+                        <a href="#" class="menu__link">Услуги</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Отзывы</a>
+                    </li>
+                    </ul>
+                    </nav>
+                    <address class="contacts">
+                    <a href="tel:+78007003030" class="contacts__phone">88007003030</a>
+                    <div class="contacts__dropdown-title">График работы</div>
+                    </address>
+                </header>
+                <div class="hero__content">
+                    <div class="hero__text-section">
+                        <h1 class="hero__title">Не отказывай себе в желании быть первым</h1>
+                        <h4 class="hero__subtitle">Банк с львиным характером</h4>
+                        <a href="#" class="btn btn--color--ginger">ПОДРОБНЕЕ</a>
                     </div>
-                    <div class="offers__description">
-                        Обслуживание карты
-                    </div>
-                </div>
-                <div class="offers__cashback">
-                    <div class="offers__conditions">
-                        до 4 %
-                    </div>
-                    <div class="offers__description">
-                        Кэшбек за любимые покупки
-                    </div>
-                </div>
-                <button class="offers__button">
-                    ПОДРОБНЕЕ
-                </button>
-            </div>
-            <div class="offers__element">
-                <div class="offfers__img">
-                    <img src="./img/card__opti.png" alt="" class="offers_background">
-                    <img src="./img/card__purple.png" alt="" class="offers__card">
-                </div>
-                <div class="offers__name">
-                    Карта «Оптима»
-                </div>
-                <div class="offers__price">
-                    <div class="offers__conditions">
-                        90 Р.- 
-                    </div>
-                    <div class="offers__description">
-                        Обслуживание карты
-                    </div>
-                </div>
-                <div class="offers__cashback">
-                    <div class="offers__conditions">
-                        до 5 %
-                    </div>
-                    <div class="offers__description">
-                        Кэшбек за любимые покупки
-                    </div>
-                </div>
-                <button class="offers__button">
-                    ПОДРОБНЕЕ
-                </button>
-            </div>
-            <div class="offers__element">
-                <div class="offfers__img">
-                    <img src="./img/card__platin.png" alt="" class="offers_background">
-                    <img src="./img/card_gold.png" alt="" class="offers__card">
-                </div>
-                <div class="offers__name">
-                    Карта «Платинум»
-                </div>
-                <div class="offers__price">
-                    <div class="offers__conditions">
-                        490 Р.- 
-                    </div>
-                    <div class="offers__description">
-                        Обслуживание карты
-                    </div>
-                </div>
-                <div class="offers__cashback">
-                    <div class="offers__conditions">
-                        до 6 %
-                    </div>
-                    <div class="offers__description">
-                        Кэшбек за любимые покупки
-                    </div>
-                </div>
-                <button class="offers__button">
-                    ПОДРОБНЕЕ
-                </button>
-            </div>
-        </div>
-        <div class="news">
-            <h2 class="heading">
-                Новости и акции
-            </h2>
-            <div class="news__element">
-                <img src="./img/phone.png" alt="" class="news__img">
-                <div class="news__date">
-                    Декабрь 2019
-                </div>
-                <div class="news__name">
-                    Удобное мобильное приложение
-                </div>
-                <div class="news__description">
-                    Хороший банк, хорошие условия.
                 </div>
             </div>
-            <div class="news__element">
-                <img src="./img/mountains.png" alt="" class="news__img">
-                <div class="news__date">
-                    Декабрь 2019
-                </div>
-                <div class="news__name">
-                    Копите на поездку? Откройте счет!
-                </div>
-                <div class="news__description">
-                    Хороший банк, хорошие условия. Откладывайте деньги! Наш банк самый лучший банк в мире!
-                </div>
-            </div>
-            <div class="paginator">
-                <div class="paginator__displya">
-                    Страница 1 из 7
-                </div>
-                <ul class="paginator__list">
-                    <li class="paginator__items">1</li>
-                    <li class="paginator__items">2</li>
-                    <li class="paginator__items">3</li>
-                    <li class="paginator__items">4</li>
-                    <li class="paginator__items">5</li>
-                    <li class="paginator__items">6</li>
-                    <li class="paginator__items">7</li>
-                </ul>
-            </div>
-        </div>
-        <div class="information">
-            <img src="./img/chess.png" alt="" class="information__img">
-            <h2 class="heading">
-                О банке
-            </h2>
-            <div class="information__description">
-                Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. 
-            </div>
-            <button class="information__button">ПОДРОБНЕЕ</button>
-        </div>
-        <div class="footer">
-            <img src="./img/logo.png" alt="" class="footer__logo">
-            <nav class="footer__menu">
-                <ul class="menu__list">
-                    <li class="menu__title">Главная</li>
-                    <li class="menu__title">Услуги</li>
-                    <li class="menu__title">Отзывы</li>
-                </ul>
-            </nav>
-            <ul class="footer__icon">
-                <li class="footer__items">
-                    <a href="">
-                        <img src="./img/telegram.png" alt="" class="footer__social">
-                    </a>
+        </section>
+        <section class="section">
+        <div class="container">
+            <h2 class="section__title">Лучшие предложения банка</h2>
+            <ul class="offers">
+                <li class="offers__item offers__item--theme--grey">
+                    <div class="offers__header">
+                        <img src="./img/card__grey.png" class="offers__header--img" alt="">
+                    </div>
+                    <div class="offers__content">
+                        <h3 class="offers__title">
+                            Карта «Базовая»
+                        </h3>
+                        <div class="offers__prices">
+                            <div class="offers__prices--cell">
+                                <div class="offers__price">60Р.-</div>
+                                <div class="offers__price-desc">Обслуживание карты</div>
+                            </div>
+                            <div class="offers__prices--cell">
+                                <div class="offers__price">до 4%</div>
+                                <div class="offers__price-desc">Кэшбэк за любые покупки</div>
+                            </div>
+                        </div>
+                        <div class="offers__btn">
+                        <a href="#" class="btn btn--color--black">Подробнее</a>
+                        </div>
+                    </div>
                 </li>
-                <li class="footer__items">
-                    <a href="">
-                        <img src="./img/vk.png" alt="" class="footer__social">
-                    </a>
+                <li class="offers__item offers__item--theme--blue">
+                    <div class="offers__header">
+                        <img src="./img/card__purple.png" class="offers__header--img" alt="">
+                    </div>
+                    <div class="offers__content">
+                        <h3 class="offers__title">
+                            Карта «Оптима»
+                        </h3>
+                        <div class="offers__prices">
+                            <div class="offers__prices--cell">
+                                <div class="offers__price">90Р.-</div>
+                                <div class="offers__price-desc">Обслуживание карты</div>
+                            </div>
+                            <div class="offers__prices--cell">
+                                <div class="offers__price">до 5%</div>
+                                <div class="offers__price-desc">Кэшбэк за любые покупки</div>
+                            </div>
+                        </div>
+                        <div class="offers__btn">
+                            <a href="#" class="btn btn--color--black">Подробнее</a>
+                        </div>
+                    </div>
                 </li>
-                <li class="footer__items">
-                    <a href="">
-                        <img src="./img/f.png" alt="" class="footer__social">
-                    </a>
-                </li>
-                <li class="footer__items">
-                    <a href="">
-                        <img src="./img/in.png" alt="" class="footer__social">
-                    </a>
+                <li class="offers__item offers__item--theme--gold">
+                    <div class="offers__header">
+                        <img src="./img/card_gold.png" class="offers__header--img" alt="">
+                    </div>
+                    <div class="offers__content">
+                        <h3 class="offers__title">
+                            Карта «Платинум»
+                        </h3>
+                        <div class="offers__prices">
+                            <div class="offers__prices--cell">
+                                <div class="offers__price">490Р.-</div>
+                                <div class="offers__price-desc">Обслуживание карты</div>
+                            </div>
+                            <div class="offers__prices--cell">
+                                <div class="offers__price">до 6%</div>
+                                <div class="offers__price-desc">Кэшбэк за любые покупки</div>
+                            </div>
+                        </div>
+                        <div class="offers__btn">
+                            <a href="#" class="btn btn--color--black">Подробнее</a>
+                        </div>
+                    </div>
                 </li>
             </ul>
-            <address class="contacts">
-                <a href="tel:+78007003030" class="contacts__phone">88007003030</a>
-                <div class="footer__text">Бесплатный звонок по России
-                    
-                </div>
-            </address>
         </div>
+        </section>
+        <div class="section">
+            <div class="container">
+            <h2 class="section__title">Новости и акции</h2>
+            <ul class="news">
+                <li class="news__item">
+                    <img src="./img/phone.png" alt="Мобильное приложение" class="news__cover">
+                    <div class="news__text-content">
+                        <time class="news__date">Декабрь 2019</time>
+                        <div class="news__title">Удобное  мобильное приложение</div>
+                        <div class="news__desc">Хороший банк, хорошие условия.</div>
+                    </div>
+                </li>
+                <li class="news__item">
+                    <img src="./img/mountains.png" alt="Счет в банке" class="news__cover">
+                    <div class="news__text-content">
+                        <time class="news__date">Декабрь 2019</time>
+                        <div class="news__title">Копите на поездку? Откройте счёт!</div>
+                        <div class="news__desc">Хороший банк, хорошие условия. Откладывайте деньги!
+                            Наш банк самый лучший банк в мире!</div>
+                    </div>
+                </li>
+            </ul>
+            <div class="pager">
+                <div class="pager__display">Страница 1 из 7</div>
+                <ul class="pager__list">
+                    <li class="pager__item pager__item-active">
+                        <a href="#" class="pager__link">1</a>
+                    </li>
+                    <li class="pager__item">
+                        <a href="#" class="pager__link">2</a>
+                    </li>
+                    <li class="pager__item">
+                        <a href="#" class="pager__link">3</a>
+                    </li>
+                    <li class="pager__item">
+                        <a href="#" class="pager__link">4</a>
+                    </li>
+                    <li class="pager__item">
+                        <a href="#" class="pager__link">5</a>
+                    </li>
+                    <li class="pager__item">
+                        <a href="#" class="pager__link">6</a>
+                    </li>
+                    <li class="pager__item">
+                        <a href="#" class="pager__link">7</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <section class="setion">
+            <div class="container">
+                <div class="about">
+                    <div class="about__desc">
+                        <h2 class="about__title">О банке</h2>
+                        <div class="about__desc-text">
+                            <p> 
+                                Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. 
+                            </p>
+                            </div>
+                        <a href="" class="btn btn--color--ginger">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-container">
+            <div class="container footer-container__content">
+                <div class="footer">
+                    <header class="header">
+                        <a href="/" class="logo">
+                        <img src="./img/logo.png" alt="lion bank logo" class="logo__img">
+                        </a> 
+                        <nav class="menu">
+                        <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Главная</a>
+                        </li>
+                        <li class="menu__item menu__item--active">
+                            <a href="#" class="menu__link">Услуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Отзывы</a>
+                        </li>
+                        </ul>
+                        </nav>
+                        <ul class="socials">
+                            <li class="socialc__item social__item--icon--telegram">
+                                <a href="" class="socials__link"></a>
+                            </li>
+                            <li class="socialc__item social__item--icon--vk">
+                                <a href="" class="socials__link"></a>
+                            </li>
+                            <li class="socialc__item social__item--icon--fb">
+                                <a href="" class="socials__link"></a>
+                            </li>
+                            <li class="socialc__item social__item--icon--in">
+                                <a href="" class="socials__link"></a>
+                            </li>
+                        </ul>
+                        <address class="contacts">
+                            <div class="contacts__desc">Бесплатный звонок по России</div>
+                        <a href="tel:+78007003030" class="contacts__phone">88007003030</a>
+
+                        </address>
+                    </header>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
