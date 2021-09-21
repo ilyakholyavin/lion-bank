@@ -29,7 +29,7 @@ h1 h2 h3 h4 h5 h6 {
     box-sizing: border-box;
 }
 .main-page-wrapper {
-    background: url(/img/фон.jpg) center top no-repeat;
+    background: url(./img/fon.jpg) center top no-repeat;
 }
 .container {
     margin: 0 auto;
